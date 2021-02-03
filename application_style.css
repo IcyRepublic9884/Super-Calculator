@@ -1,0 +1,31 @@
+QMainWindow {
+    background-color: rgb(83, 83, 83);
+}
+
+QPushButton {
+    background-color: #303030;
+    color: #4cfc00;
+}
+
+QPushButton:hover {
+    background-color: #838383;
+}
+
+QPushButton:pressed {
+    background-color: rgb(0, 0, 0);
+}
+
+QLabel {
+    background-color: inherit;
+    color: #4cfc00;
+}
+
+QPushButton#btn_equ {
+    background-color: #ff6e19;
+    color: #4cfc00;
+}
+
+QPushButton#btn_equ:hover {
+    background-color: #ff5858;
+    color: #4cfc00;
+}
