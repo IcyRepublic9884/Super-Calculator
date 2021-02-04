@@ -12,7 +12,7 @@ _OP_MAP = {
 
 
 class Calc(ast.NodeVisitor):
-
+    """Class to calculate the Expression given by the Calculator"""
     def visit_BinOp(self, node):
         left = self.visit(node.left)
         right = self.visit(node.right)
