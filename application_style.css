@@ -1,10 +1,17 @@
 QMainWindow {
-    background-color: rgb(83, 83, 83);
+    background: #000000;
 }
 
 QPushButton {
-    background-color: #303030;
-    color: #4cfc00;
+    background-color: #c2b6b6;
+    color: #8bd1ff;
+    position: relative;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
 }
 
 QPushButton:hover {
